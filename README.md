@@ -14,7 +14,9 @@ steo 3 - copy it (n) times in .XIOS[1,2,3...] (make sure wallet.dat not duplicat
 
 step 4 - config port n+1,2,3 
 
-step 5 - run it
+step 5 - run them
+
+step 6 - stop them, rm them ...
 
 # We don't want
 
