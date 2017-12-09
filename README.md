@@ -16,8 +16,4 @@ config port n+1,2,3
 
 run them
 
-stop them, rm them ...
-
-# We don't want
-
-fail - getprivkey (ugh)
+and copy node [1,2,3] privkey to .XIOS[1,2,3].conf SECURELY
