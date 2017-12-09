@@ -5,18 +5,18 @@ this project must be validated by the team before public use
 
 for now : USE IT AT YOUR OWN RISK
 
-# We want
-step 1 - download XIOS source from davembg
+# We want this script to
+git clone https//github.com/davembg/xios
 
-step 2 - autocompile it for ubuntu
+compile it for ubuntu
 
-steo 3 - copy it (n) times in .XIOS[1,2,3...] (make sure wallet.dat not duplicate)
+copy it (n) times in .XIOS[1,2,3...] (make sure wallet.dat not duplicate)
 
-step 4 - config port n+1,2,3 
+config port n+1,2,3 
 
-step 5 - run them
+run them
 
-step 6 - stop them, rm them ...
+stop them, rm them ...
 
 # We don't want
 
