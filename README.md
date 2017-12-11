@@ -3,7 +3,7 @@ Bash script designed to deploy several XIOSd on your Ubuntu 17.04 VPS
 
 this project has not been validated by the community yet
 
-for now : use it for testing
+for now : read the code give me your feedback and use it for testing
 
 # Install
 
