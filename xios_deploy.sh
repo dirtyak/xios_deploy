@@ -3,7 +3,7 @@
 #
 
 # Verify swapfile
-grep swapfile /etc/fstab
+grep swap /etc/fstab
 if [ $? == 0 ]
 then
         echo "swap exists, skipping..."
