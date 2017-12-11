@@ -1,19 +1,12 @@
 # xios_deploy (early dev)
 Bash script designed to deploy several XIOSd on your Ubuntu 17.04 VPS
 
-this project must be validated by the team before public use
+this project has not been validated by the community yet
 
-for now : USE IT AT YOUR OWN RISK
+for now : use it for testing
 
-# We want this script to
-git clone https//github.com/davembg/xios
+# Install
 
-compile it for ubuntu
-
-copy it (n) times in .XIOS[1,2,3...] (make sure wallet.dat not duplicate)
-
-config port n+1,2,3 
-
-run them
-
-and copy node [1,2,3] privkey to .XIOS[1,2,3].conf SECURELY
+<pre>git clone https://github.com/dirtyak/xios_deploy/
+cd xios_deploy
+./xios_deploy.sh</pre>
