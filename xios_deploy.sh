@@ -82,3 +82,9 @@ function makeconfigfiles {
         i=$[$i+1]
         done
 }
+
+usage
+verifyswap
+satisfydependencies
+installXIOSd
+makeconfigfiles
