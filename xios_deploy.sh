@@ -40,14 +40,14 @@ mkdir $home/.XIOS1
 # Populate missing information in XIOS.conf file
 echo "rpcuser=<ANY user>" > $home/.XIOS1/.XIOS.conf
 echo "rpcpassword=<ANY password>" >> $home/.XIOS1/.XIOS.conf
-echo "rpcallowip=123.0.0.1" >> $home/.XIOS1/.XIOS.conf
-echo "rpcport=9101" >> $home/.XIOS1/.XIOS.conf
+echo "rpcallowip=127.0.0.1" >> $home/.XIOS1/.XIOS.conf
+echo "rpcport=9100" >> $home/.XIOS1/.XIOS.conf
 echo "listen=1" >> $home/.XIOS1/.XIOS.conf
 echo "server=1" >> $home/.XIOS1/.XIOS.conf
 echo "daemon=1" >> $home/.XIOS1/.XIOS.conf
 echo "staking=0" >> $home/.XIOS1/.XIOS.conf
 echo "longtimestamps=1" >> $home/.XIOS1/.XIOS.conf
-echo "port=9001"  >> $home/.XIOS1/.XIOS.conf
+echo "port=9000"  >> $home/.XIOS1/.XIOS.conf
 
 # Start XIOSd Application
 /root/xios/src/XIOSd -datadir=/root/.XIOS1 -config=/root/.XIOS1/XIOS.conf -daemon
